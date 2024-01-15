@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.addEventListener("load", () =>{
+            
+            const loader= document.querySelector(".loader")
+            loader.classList.add("loader--hidden")
+
+            loader.addEventListener("transitionend", () =>{
+                document.body.removeChild(document.querySelector(".loader"));
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div class="loader"></div>
+    <div class="header">
+        <a href="index.html"><img id="Logo" src="imagenes/logo.png" alt="logo"></a>
+        <nav>
+            <ul class="links">
+                <li class="opciones"><a class="opciones" href="miembros.html">Miembros</a></li>
+                <li class="opciones"><a class="opciones" href="buscados.html">Los más buscados</a></li>
+                <li class="opciones"><a class="opciones" href="mejores.html">Salón de la fama</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button class="opciones">Unirse</button></a>
+
+    </div>
+    <div class="titulo">
+        <h1 id="pepepandilla">PepePandilla Oficial</h1>
+        <h2 id="elpepe">El pepe 😎</h2>
+    </div>
+    <div class="paginaprincipal">
+        <div class="introduccion">
+            <h1 id="titulo2">Introducción a la PepePandilla</h1>
+            <p id="descripcion">
+            La PepePandilla es un grupo conformado por miembros que están dentro del
+            grupo de WhatsApp más conocido como "pepepandilla",
+            las actividades más recurrentes y menos dañinas son cosas como: jugar roblox.
+            Las actividades menos recurrentes y a veces dañinas son cosas como: salir, jugar otra cosa que no sea roblox.
+            Y por último, lo que nunca hacemos y ni nos planteamos hacer es: salir con mtroche, uno de los miembros originales de la pandilla terrorista.<br>
+            Nos gusta mucho ver anime, jugar roblox, y no nos gusta jugar otra cosa que no sea roblox.
+            Principalmente hablamos de estupideces, y cada venida de Jesucristo hablamos de cosas serias.<br>
+            Pero, en conclusión, la PepePandilla es un grupo muy acogedor por si tu cosa favorita es no hacer nada (11/1/2024).
+            </p> 
+            
+        </div>
+        <div class="informacion">
+            <h1 id="titulo2">Cosas curiosas de la PepePandilla</h1>
+            <p id="descripcion">
+                ¿Sabías que...? <br>
+                La PepePandilla comenzó con Mathias, Warran y Benja. <br>
+                El juego favorito de todos los integrantes parece ser roblox. <br>
+                No sé, (continuará). <br>
+                Ya sé, a Benja no le gusta la pizza. <br>
+                (Continuará)
+            </p>
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+
+</html>
